@@ -14,9 +14,9 @@ book:
         # tables), part, preface, prologue, title, toc (table of contents)
         - { element: cover }
         - { element: toc   }
-        - { element: chapter, number: I, content: introduction.md }
-        - { element: chapter, number: II, content: etat-de-lart.md }
-        - { element: chapter, number: II-1, content: etat-de-lart/bref_historique_php.md }
+        - { element: chapter, number: I, content: 01-introduction.md }
+        - { element: chapter, number: II, content: 02-etat-de-lart.md }
+        - { element: chapter, number: II-1, content: 02-etat-de-lart/bref_historique_php.md }
         #- { element: chapter, number: II-2, content: etat-de-lart/intro_framework.md }
         #- { element: chapter, number: II-3, content: etat-de-lart/intro_bonnes_pratiques.md }
         #- { element: chapter, number: II-4, content: etat-de-lart/intro_cms.md }
