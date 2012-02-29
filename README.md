@@ -14,7 +14,8 @@ php composer.phar install
 
 Contribution
 ------------
-dans le répertoire doc. pour gérer le plan du livre il faut éditer le fichier config.yml sous doc/livre-blanc-afup
+dans le répertoire doc/livre-blanc-afup/Contents, chaque chapitre est isolé dans un .md. 
+pour gérer le plan du livre il faut éditer le fichier config.yml sous doc/livre-blanc-afup.
 
 
 Publication du livre
