@@ -7,6 +7,7 @@ Installation
 ```
 mkdir  afup-book
 git clone http://github.com/omansour/afup-book.git afup-book
+cd afup-book
 wget http://getcomposer.org/composer.phar
 php composer.phar install
 ```
@@ -23,3 +24,4 @@ Publication du livre
 ```
 
 enjoy ;)
+
