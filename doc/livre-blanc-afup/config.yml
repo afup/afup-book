@@ -17,21 +17,21 @@ book:
         - { element: chapter, number: I, content: 01-introduction.md }
         - { element: chapter, number: II, content: 02-etat-de-lart.md }
         - { element: chapter, number: II-1, content: 02-etat-de-lart/bref_historique_php.md }
-        #- { element: chapter, number: II-2, content: 02-etat-de-lart/intro_framework.md }
-        #- { element: chapter, number: II-3, content: 02-etat-de-lart/intro_bonnes_pratiques.md }
-        #- { element: chapter, number: II-4, content: 02-etat-de-lart/intro_cms.md }
-        #- { element: chapter, number: III, content: 03-framework.md }
-        #- { element: chapter, number: III-1, content: 03-framework/01-comment_choisir.md }
-        #- { element: chapter, number: III-2, content: 03-framework/02-mise_en_oeuvre.md }
+        - { element: chapter, number: II-2, content: 02-etat-de-lart/intro_framework.md }
+        - { element: chapter, number: II-3, content: 02-etat-de-lart/intro_bonnes_pratiques.md }
+        - { element: chapter, number: II-4, content: 02-etat-de-lart/intro_cms.md }
+        - { element: chapter, number: III, content: 03-framework.md }
+        - { element: chapter, number: III-1, content: 03-framework/01-comment_choisir.md }
+        - { element: chapter, number: III-2, content: 03-framework/02-mise_en_oeuvre.md }
         - { element: chapter, number: IV, content: 04-cms.md }
-        #- { element: chapter, number: IV-1, content: 04-cms/01-quand_utiliser_cms.md }
+        - { element: chapter, number: IV-1, content: 04-cms/01-quand_utiliser_cms.md }
         - { element: chapter, number: IV-2, content: 04-cms/02-ecommerce.md }
-        #- { element: chapter, number: IV-3, content: 04-cms/01-cmf.md }
-        #- { element: chapter, number: V, content: 05-bonnes_pratiques.md }
-        #- { element: chapter, number: V-1, content: 05-bonnes_pratiques/01-atelier_logiciel.md }
-        #- { element: chapter, number: V-2, content: 05-bonnes_pratiques/02-tests_unitaires.md }
-        #- { element: chapter, number: V-3, content: 05-bonnes_pratiques/03-integration_continue.md }
-        #- { element: chapter, number: V-4, content: 05-bonnes_pratiques/04-revues_code.md }
+        - { element: chapter, number: IV-3, content: 04-cms/01-cmf.md }
+        - { element: chapter, number: V, content: 05-bonnes_pratiques.md }
+        - { element: chapter, number: V-1, content: 05-bonnes_pratiques/01-atelier_logiciel.md }
+        - { element: chapter, number: V-2, content: 05-bonnes_pratiques/02-tests_unitaires.md }
+        - { element: chapter, number: V-3, content: 05-bonnes_pratiques/03-integration_continue.md }
+        - { element: chapter, number: V-4, content: 05-bonnes_pratiques/04-revues_code.md }
 
     editions:
         ebook:

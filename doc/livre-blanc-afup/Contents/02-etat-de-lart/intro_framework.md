@@ -1,5 +1,5 @@
-Introduction au framework
-=========================
+Etat de l'art - les frameworks
+==============================
 
 Intro
 -----
