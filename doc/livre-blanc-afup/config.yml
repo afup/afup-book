@@ -23,9 +23,9 @@ book:
         #- { element: chapter, number: III, content: 03-framework.md }
         #- { element: chapter, number: III-1, content: 03-framework/01-comment_choisir.md }
         #- { element: chapter, number: III-2, content: 03-framework/02-mise_en_oeuvre.md }
-        #- { element: chapter, number: IV, content: 04-cms.md }
+        - { element: chapter, number: IV, content: 04-cms.md }
         #- { element: chapter, number: IV-1, content: 04-cms/01-quand_utiliser_cms.md }
-        #- { element: chapter, number: IV-2, content: 04-cms/02-ecommerce.md }
+        - { element: chapter, number: IV-2, content: 04-cms/02-ecommerce.md }
         #- { element: chapter, number: IV-3, content: 04-cms/01-cmf.md }
         #- { element: chapter, number: V, content: 05-bonnes_pratiques.md }
         #- { element: chapter, number: V-1, content: 05-bonnes_pratiques/01-atelier_logiciel.md }

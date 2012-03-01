@@ -41,6 +41,25 @@
                         <span>Chapitre II-1</span> <a href="#bref-historique">Bref historique</a>
                     </li>
                             
+                            
+                                                                <li class="chapter level-1">
+                        <span>Chapitre IV</span> <a href="#en-detail-les-cms">En détail - Les CMS</a>
+                    </li>
+                            
+                            
+                                                                <li class="chapter level-1">
+                        <span>Chapitre IV-2</span> <a href="#cas-particulier-du-e-commerce">Cas particulier du e-commerce</a>
+                    </li>
+                                                                <li class="chapter level-2">
+                        <span>IV-2.1</span> <a href="#magento">Magento</a>
+                    </li>
+                                                                <li class="chapter level-2">
+                        <span>IV-2.2</span> <a href="#prestashop">PrestaShop</a>
+                    </li>
+                                                                <li class="chapter level-2">
+                        <span>IV-2.3</span> <a href="#oscommerce">OSCommerce</a>
+                    </li>
+                            
                     </ul>
 
 </div>
@@ -69,6 +88,98 @@ ouais :)</p>
 <h1 id="bref-historique"><span>Chapitre II-1</span> Bref historique</h1>
 
 <p>bref historique</p>
+
+
+</div>
+    <div class="page:chapter new-page">
+
+<h1 id="en-detail-les-cms"><span>Chapitre IV</span> En détail - Les CMS</h1>
+
+<p>Ceci est une introduction au chapitre "En détail - Les CMS"</p>
+
+
+</div>
+    <div class="page:chapter new-page">
+
+<h1 id="cas-particulier-du-e-commerce"><span>Chapitre IV-2</span> Cas particulier du e-commerce</h1>
+
+<p>Le terme « CMS » signifie « Content Management System » (système de gestion de contenu), et l'idée répandue lorsque ce terme est employé est qu'il s'agit d'un système de gestion de texte.
+Or, la définition même d'un outil e-commerce est de gérer des produits et les ventes associées, donc des contenus.</p>
+
+<p>La mise en place d'une solution e-commerce complète est complexe de part le volume fonctionnel minimum. Outre les fonctionnalités basiques (affichage d'un catalogue, gestion des clients), certaines fonctionnalités sont très sensibles, et demandent du temps et de l'énergie pour être mise en place de manière propre (panier, tunnel de paiement, intégration de système de paiement en ligne).</p>
+
+<p>Fort heureusement, dans l'écosystème PHP, il existe nombres d'outils libres permettant de mettre en place des solutions e-commerce complètes :</p>
+
+<h2 id="magento">IV-2.1 Magento</h2>
+
+<div class="table" id="table-iv-2-1">
+
+    <table>
+    <tr>
+        <th>Site web</th>
+        <td>http://www.magentocommerce.com/fr/</td>
+    </tr>
+    <tr>
+        <th>Version courante</th>
+        <td>1.6</td>
+    </tr>
+    <tr>
+        <th>Licence</th>
+        <td>Open Software License (OSL) v3.0 (voir également http://www.magentocommerce.com/license/)</td>
+    </tr>
+</table>
+</div>
+
+
+<p>Développé initialement par la société Varien (qui sera renommé en Magento, Inc par la suite), Magento est une solution e-commerce complète dont le panel fonctionnel se veut le plus large possible, pour couvrir nativement la plupart des besoins des utilisateurs de ce genre d'outils :</p>
+
+<ul>
+<li>Catalogue de produits
+
+<ul>
+<li>Produits physiques, groupés, virtuels, …</li>
+</ul></li>
+<li>Gestion des clients
+
+<ul>
+<li>Compte client</li>
+<li>Commentaires sur les produits</li>
+</ul></li>
+<li>Commande</li>
+<li>Paiement en ligne</li>
+<li>Promotions / Outils de marketing</li>
+<li>Multi-site / Multi-langue</li>
+<li>CMS</li>
+</ul>
+
+<p>Malgré cette couverture fonctionnelle très importante, Magento a tout de même pensé son architecture pour permettre une extensibilité maximale.</p>
+
+<p>Basé sur le Zend Framework, Magento dispose de son propre framework donnant nombres de portes d'entrée au développeurs.</p>
+
+<p>La principale d'entre elle est un système de configuration permettant de surcharger presque l'intégralité du système, de l'ORM au interfaces en passant par les contrôleurs et les « widgets » de présentation. Ainsi, il est possible d'adapter le fonctionnement de Magento aux moindres besoins client.</p>
+
+<p>Magento propose également l'installation de modules via un installeur intégré, et un catalogue d'extensions permettant de trouver une solution pour presque tout les besoins :</p>
+
+<ul>
+<li>Interaction avec les ERP courants</li>
+<li>Interaction avec les API des logisticiens</li>
+<li>Intégration avec les API bancaires de tout pays</li>
+<li>...</li>
+</ul>
+
+<p>Toutefois, les implémentations mises en place pour permettre cette extensibilité ont un coup en terme de performance, et Magento est gourmand en ressource pour fonctionner de manière optimale, et cette contrainte doit être prise en compte lors du choix de l'hébergement, puisque l'architecture recommandée consiste en 2 serveurs applicatifs et un serveur de base de données.</p>
+
+<p>Autre inconvénient génant : la barrière d'entrée. Autant pour les utilisateurs que pour les développeurs, il est compliqué d'entrer dans la logique de Magento sans une formation professionnelle.</p>
+
+<p>Du côté de la communauté de développeurs, elle est importante et plutôt réactive, mais la documentation est très disparate et il est difficile de trouver une documentation exhaustive.</p>
+
+<h2 id="prestashop">IV-2.2 PrestaShop</h2>
+
+<p>paragraphe sur PrestaShop</p>
+
+<h2 id="oscommerce">IV-2.3 OSCommerce</h2>
+
+<p>paragraphe sur OSCommerce</p>
 
 
 </div>
