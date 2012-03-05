@@ -28,7 +28,7 @@ book:
         - { element: chapter, number: IV-2, content: 03-framework/02-mise_en_oeuvre.md }
         - { element: chapter, number: V, content: 04-cms.md }
         - { element: chapter, number: V-1, content: 04-cms/01-quand_utiliser_cms.md }
-        - { element: chapter, number: V-2, content: 04-cms/02-ecommerce.md }
+        - { element: chapter, number: V-2, content: 04-cms/02-ecommerce.md } # -> Mikael Randy
         - { element: chapter, number: V-3, content: 04-cms/01-cmf.md }
         - { element: chapter, number: VI, content: 05-bonnes_pratiques.md }
         - { element: chapter, number: VI-1, content: 05-bonnes_pratiques/01-atelier_logiciel.md }
