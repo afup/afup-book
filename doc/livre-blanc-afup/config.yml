@@ -13,19 +13,21 @@ book:
         # glossary, introduction, license, lof (list of figures), lot (list of
         # tables), part, preface, prologue, title, toc (table of contents)
         - { element: cover }
+        - { element: acknoledgement } # -> Gauthier Delamarre (liste des contributeurs)
         - { element: toc   }
-        - { element: chapter, number: I, content: 000-introduction.md }
+        - { element: preface } # -> GDE : je suggère Xavier Lacot en tant que président de l'asso
+        - { element: chapter, number: I, content: 000-introduction.md } # -> Gauthier Delamarre
         - { element: chapter, number: II, content: 01-php-en-entreprise.md }
         - { element: chapter, number: II-1, content: 01-php-entreprise/01-php-en-chiffre.md }
         - { element: chapter, number: II-1, content: 01-php-entreprise/02-php-si.md }
         - { element: chapter, number: III, content: 02-etat-de-lart.md }
         - { element: chapter, number: III-1, content: 02-etat-de-lart/bref_historique_php.md }
         - { element: chapter, number: III-2, content: 02-etat-de-lart/intro_framework.md }
-        - { element: chapter, number: III-3, content: 02-etat-de-lart/intro_bonnes_pratiques.md }
+        - { element: chapter, number: III-3, content: 02-etat-de-lart/intro_bonnes_pratiques.md } # -> Gauthier Delamarre
         - { element: chapter, number: III-4, content: 02-etat-de-lart/intro_cms.md }
         - { element: chapter, number: IV, content: 03-framework.md }
         - { element: chapter, number: IV-1, content: 03-framework/01-comment_choisir.md }
-        - { element: chapter, number: IV-2, content: 03-framework/02-mise_en_oeuvre.md }
+        - { element: chapter, number: IV-2, content: 03-framework/02-mise_en_oeuvre.md } # -> Gauthier Delamarre
         - { element: chapter, number: V, content: 04-cms.md }
         - { element: chapter, number: V-1, content: 04-cms/01-quand_utiliser_cms.md }
         - { element: chapter, number: V-2, content: 04-cms/02-ecommerce.md } # -> Mikael Randy
@@ -35,7 +37,7 @@ book:
         - { element: chapter, number: VI-2, content: 05-bonnes_pratiques/02-tests_unitaires.md }
         - { element: chapter, number: VI-3, content: 05-bonnes_pratiques/03-integration_continue.md }
         - { element: chapter, number: VI-4, content: 05-bonnes_pratiques/04-revues_code.md }
-
+        - { element: conclusion } # -> Gauthier Delamarre
     editions:
         ebook:
             format:         epub
