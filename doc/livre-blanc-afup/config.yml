@@ -1,7 +1,7 @@
 book:
-    title:            "Livre blanc Afup - PHP en entreprise"
-    author:           "Afup"
-    edition:          "Deuxième édition"
+    title:            "Livre blanc AFUP - PHP en entreprise"
+    author:           "AFUP"
+    edition:          "Cinquième édition"
     language:         fr
     publication_date: ~
 
