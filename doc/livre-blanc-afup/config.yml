@@ -36,7 +36,7 @@ book:
         - { element: chapter, number: VI-1, content: 05-bonnes_pratiques/01-atelier_logiciel.md }
         - { element: chapter, number: VI-2, content: 05-bonnes_pratiques/02-tests_unitaires.md }
         - { element: chapter, number: VI-3, content: 05-bonnes_pratiques/03-integration_continue.md }
-        - { element: chapter, number: VI-4, content: 05-bonnes_pratiques/04-revues_code.md }
+        - { element: chapter, number: VI-4, content: 05-bonnes_pratiques/04-revues_code.md } # -> Jean-Marc Fontaine
         - { element: conclusion } # -> Gauthier Delamarre
     editions:
         ebook:
