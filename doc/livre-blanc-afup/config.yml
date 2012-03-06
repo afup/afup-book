@@ -20,8 +20,8 @@ book:
         - { element: chapter, number: II, content: 01-php-en-entreprise.md }
         - { element: chapter, number: II-1, content: 01-php-entreprise/01-php-en-chiffre.md }
         - { element: chapter, number: II-1, content: 01-php-entreprise/02-php-si.md }
-        - { element: chapter, number: III, content: 02-etat-de-lart.md }
-        - { element: chapter, number: III-1, content: 02-etat-de-lart/bref_historique_php.md }
+        - { element: chapter, number: III, content: 02-etat-de-lart.md } # -> Julien Pauli
+        - { element: chapter, number: III-1, content: 02-etat-de-lart/bref_historique_php.md } # -> Julien Pauli
         - { element: chapter, number: III-2, content: 02-etat-de-lart/intro_framework.md }
         - { element: chapter, number: III-3, content: 02-etat-de-lart/intro_bonnes_pratiques.md } # -> Gauthier Delamarre
         - { element: chapter, number: III-4, content: 02-etat-de-lart/intro_cms.md }
