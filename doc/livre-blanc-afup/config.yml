@@ -1,7 +1,7 @@
 book:
-    title:            "Livre blanc Afup - PHP en entreprise"
-    author:           "Afup"
-    edition:          "Deuxième édition"
+    title:            "Livre blanc AFUP - PHP en entreprise"
+    author:           "AFUP"
+    edition:          "Cinquième édition"
     language:         fr
     publication_date: ~
 
@@ -13,7 +13,7 @@ book:
         # glossary, introduction, license, lof (list of figures), lot (list of
         # tables), part, preface, prologue, title, toc (table of contents)
         - { element: cover }
-        - { element: acknoledgement } # -> Gauthier Delamarre (liste des contributeurs)
+        - { element: acknowledgement } # -> Gauthier Delamarre (liste des contributeurs)
         - { element: toc   }
         - { element: preface } # -> Xavier Lacot
         - { element: chapter, number: I, content: 000-introduction.md } # -> Gauthier Delamarre
