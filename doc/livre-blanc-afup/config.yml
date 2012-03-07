@@ -13,7 +13,7 @@ book:
         # glossary, introduction, license, lof (list of figures), lot (list of
         # tables), part, preface, prologue, title, toc (table of contents)
         - { element: cover }
-        - { element: acknoledgement } # -> Gauthier Delamarre (liste des contributeurs)
+        - { element: acknowledgement } # -> Gauthier Delamarre (liste des contributeurs)
         - { element: toc   }
         - { element: preface } # -> GDE : je suggère Xavier Lacot en tant que président de l'asso
         - { element: chapter, number: I, content: 000-introduction.md } # -> Gauthier Delamarre
