@@ -1,3 +1,3 @@
-Etat de l'art - les bonnes pratiques
+Les bonnes pratiques
 ====================================
 

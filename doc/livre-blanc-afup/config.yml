@@ -13,31 +13,31 @@ book:
         # glossary, introduction, license, lof (list of figures), lot (list of
         # tables), part, preface, prologue, title, toc (table of contents)
         - { element: cover }
-        - { element: acknowledgement } # -> Gauthier Delamarre (liste des contributeurs)
-        - { element: toc   }
-        - { element: preface } # -> Xavier Lacot
-        - { element: chapter, number: I, content: 000-introduction.md } # -> Gauthier Delamarre
-        - { element: chapter, number: II, content: 01-php-en-entreprise.md }
-        - { element: chapter, number: II-1, content: 01-php-entreprise/01-php-en-chiffre.md }
-        - { element: chapter, number: II-1, content: 01-php-entreprise/02-php-si.md }
-        - { element: chapter, number: III, content: 02-etat-de-lart.md } # -> Julien Pauli
-        - { element: chapter, number: III-1, content: 02-etat-de-lart/bref_historique_php.md } # -> Julien Pauli
-        - { element: chapter, number: III-2, content: 02-etat-de-lart/intro_framework.md }
-        - { element: chapter, number: III-3, content: 02-etat-de-lart/intro_bonnes_pratiques.md } # -> Gauthier Delamarre
-        - { element: chapter, number: III-4, content: 02-etat-de-lart/intro_cms.md }
-        - { element: chapter, number: IV, content: 03-framework.md }
-        - { element: chapter, number: IV-1, content: 03-framework/01-comment_choisir.md } # -> Xavier Lacot
-        - { element: chapter, number: IV-2, content: 03-framework/02-mise_en_oeuvre.md } # -> Gauthier Delamarre
-        - { element: chapter, number: V, content: 04-cms.md }
-        - { element: chapter, number: V-1, content: 04-cms/01-quand_utiliser_cms.md }
-        - { element: chapter, number: V-2, content: 04-cms/02-ecommerce.md } # -> Mikael Randy
-        - { element: chapter, number: V-3, content: 04-cms/01-cmf.md }
-        - { element: chapter, number: VI, content: 05-bonnes_pratiques.md }
-        - { element: chapter, number: VI-1, content: 05-bonnes_pratiques/01-atelier_logiciel.md }
-        - { element: chapter, number: VI-2, content: 05-bonnes_pratiques/02-tests_unitaires.md }
-        - { element: chapter, number: VI-3, content: 05-bonnes_pratiques/03-integration_continue.md }
-        - { element: chapter, number: VI-4, content: 05-bonnes_pratiques/04-revues_code.md } # -> Jean-Marc Fontaine
-        - { element: conclusion } # -> Gauthier Delamarre
+        - { element: acknowledgement, content: acknowledgement.md } # -> Gauthier Delamarre (liste des contributeurs)
+        - { element: toc }
+        - { element: preface, content: preface.md } # -> Xavier Lacot
+        - { element: introduction, content: introduction.md } # -> Gauthier Delamarre
+        - { element: part, number: I, title: "PHP en entreprise" }
+        - { element: chapter, number: 1.1, content: 01-php-entreprise/01-php-en-chiffre.md }
+        - { element: chapter, number: 1.2, content: 01-php-entreprise/02-php-si.md }
+        - { element: part, number: II, title: "L'état de l'Art" }
+        - { element: chapter, number: 2.1, content: 02-etat-de-lart/bref_historique_php.md } # -> Julien Pauli
+        - { element: chapter, number: 2.2, content: 02-etat-de-lart/intro_framework.md }
+        - { element: chapter, number: 2.3, content: 02-etat-de-lart/intro_bonnes_pratiques.md } # -> Gauthier Delamarre
+        - { element: chapter, number: 2.4, content: 02-etat-de-lart/intro_cms.md }
+        - { element: part, number: III, title: "Les frameworks" }
+        - { element: chapter, number: 3.1, content: 03-framework/01-comment_choisir.md } # -> Xavier Lacot
+        - { element: chapter, number: 3.2, content: 03-framework/02-mise_en_oeuvre.md } # -> Gauthier Delamarre
+        - { element: part, number: IV, title: "Les systèmes de gestion de contenus" }
+        - { element: chapter, number: 4.1, content: 04-cms/01-quand_utiliser_cms.md }
+        - { element: chapter, number: 4.2, content: 04-cms/02-ecommerce.md } # -> Mikael Randy
+        - { element: chapter, number: 4.3, content: 04-cms/03-cmf.md }
+        - { element: part, number: V, title: "Les bonnes pratiques" }
+        - { element: chapter, number: 5.1, content: 05-bonnes_pratiques/01-atelier_logiciel.md }
+        - { element: chapter, number: 5.2, content: 05-bonnes_pratiques/02-tests_unitaires.md }
+        - { element: chapter, number: 5.3, content: 05-bonnes_pratiques/03-integration_continue.md }
+        - { element: chapter, number: 5.4, content: 05-bonnes_pratiques/04-revues_code.md } # -> Jean-Marc Fontaine
+        - { element: conclusion, content: conclusion.md } # -> Gauthier Delamarre
     editions:
         ebook:
             format:         epub

@@ -1,3 +1,3 @@
-Bonnes pratiques, l'intégration continue
+L'intégration continue
 ========================================
 

@@ -1,2 +1,2 @@
-Les frameworks, mise en oeuvre
+Mise en oeuvre d'un framework
 ==============================

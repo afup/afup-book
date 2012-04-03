@@ -1,4 +1,4 @@
-Bref historique
+Bref historique du langage
 ===============
 
 PHP est un langage web né en 1995 de la volonté d'une personne à vouloir compter le nombre de visites sur son site web.

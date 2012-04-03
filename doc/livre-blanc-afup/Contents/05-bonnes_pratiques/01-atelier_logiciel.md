@@ -1,3 +1,3 @@
-Bonnes pratiques, atelier logiciel
+Mise en place d'un atelier logiciel
 ==================================
 

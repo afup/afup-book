@@ -1,2 +1,2 @@
-Les frameworks, comment choisir ?
+Comment choisir son framework ?
 =================================

@@ -1,2 +1,2 @@
-Etat de l'art, les CMS
+Les CMS
 ======================

@@ -1,2 +1,2 @@
-CMS, quand utiliser un CMS ? 
+Quand utiliser un CMS ? 
 ============================

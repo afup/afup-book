@@ -1,2 +1,2 @@
-Bonnes pratiques, la revue de code
+La revue de code
 ==================================
