@@ -1,2 +1,0 @@
-Les bonnes pratiques
-====================

@@ -1,4 +1,0 @@
-Les frameworks PHP
-==================
-
-(troll ?)
