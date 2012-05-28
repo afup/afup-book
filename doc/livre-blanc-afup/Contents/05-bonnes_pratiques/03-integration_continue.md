@@ -12,14 +12,14 @@ Mettre en place une plate-forme d'intégration continue (ou PIC) a un coût non 
 
 A cela s'ajoute le temps de formation des équipes qui ne sont pas forcément habituées à travailler autour d'une Intégration continue de leur code.
 
-Par ailleurs, il faut prendre en compte le temps d'exploitation de ces informations d'Intégration Continue ; une personne doit prendre le temps de consulter, interpréter et réorienter l'équipe en fonction des indicateurs de suivi du projet. Toutefois, ce coût reste très modeste.
+Par ailleurs, il faut prendre en compte le temps d'exploitation de ces informations d'Intégration Continue : une personne doit prendre le temps de les consulter, et de les interpréter, afin de réorienter l'équipe en fonction des indicateurs de suivi du projet. Toutefois, ce coût reste très modeste.
 
 Cependant, ces investissements sont généralement rapidement rentabilisés, surtout auprès d'une équipe compétente ou à forte capacité d'apprentissage. En effet, le gain de qualité obtenu permet :
 
   * d'**alléger les coûts de maintenance** : toute « cassure » dans le projet est immédiatement identifiée
   * de **faciliter l'intégration de nouveaux éléments dans l'équipe** et de limiter les risques
   * d'avoir un **suivi régulier d'un projet** (on évite d'avoir un projet pour lequel tous les indicateurs passent au rouge quelques semaines avant la date de livraison)
-  * de forcer l’uniformisation et le **respect de normes de développement** au sein d'une équipe. Le projet peut facilement être repris par des tiers.
+  * de forcer l’uniformisation et le **respect de normes de développement** au sein d'une équipe, facilitant ainsi la reprise du projet par des tiers.
   * D'**éviter à un projet de régresser fonctionnellement** suite à des changements ou des évolutions (techniques ou fonctionnelles)
 
 Enfin, l'intégration continue permet aux entreprises adeptes du « **Lean Startup** » d'avoir un développement cohérent avec leurs enjeux financiers. Un développement « **Agile** » permet de livrer des lots fonctionnels très régulièrement et rapidement, et laisse le client réorienter son projet tout au long de son développement sans mettre en péril ni son coût ni ses délais. 
@@ -29,7 +29,7 @@ Cela n'est possible justement que grâce à l'aspect qualitatif et aux indicateu
 Outils et solutions
 -------------------
 
-L'intégration continue consiste donc à utiliser des outils de suivi de qualité afin de permettre d'avoir un suivi global de l'avancée d'un projet.
+L'intégration continue consiste donc à utiliser des outils de suivi de qualité, afin de permettre d'avoir un suivi global de l'avancée d'un projet.
 
 Ces outils de suivi peuvent être :
 
@@ -41,15 +41,17 @@ Ces outils de suivi peuvent être :
   * et bien d'autres que nous vous invitons à découvrir.
 
 
-Ces outils sont pour la plupart gratuits (ou peu onéreux) et ne nécessite que peu de formation pour réussir à les utiliser convenablement. 
+Ces outils sont pour la plupart gratuits (ou peu onéreux) et ne nécessitent que peu de formation pour réussir à les utiliser convenablement. 
 
-Il n'en va pas de même, comme nous l'avons vu, avec les plate-forme de ce centralisations de suivi de ces outils (ce que nous avons appelé Plate-forme d'Intégration Continue), qui nécessitent des compétences pointues et une expertise forte pour les installer. Cependant, une fois installés et configurés, le coût en maintenance est généralement très bas, voire nulle, étant donné la stabilité et la qualité des solutions logicielles proposées.
+Il n'en va pas de même, comme nous l'avons vu, avec les plate-formes de centralisations de suivi de ces outils (ce que nous avons appelé Plate-forme d'Intégration Continue), qui nécessitent des compétences pointues et une expertise forte pour les installer.  
+Cependant, une fois installées et configurées, le coût en maintenance est généralement très bas, voire nul, étant donnée la stabilité et la qualité des solutions logicielles proposées.
 
 Parmi ces solutions logicielles, nous pouvons penser à :
 
   * PhpUnderControl, gratuit, aujourd'hui fiable et reconnu mais lourd et coûteux à mettre en place
   * Jenkins, gratuit, lui aussi fiable mais sans doute moins coûteux à installer
 
-Il en existe d'autres, aussi il peut être pertinent pour vous projet de vous faire conseiller par des sociétés spécialisées dans la mise en place de solutions d'Intégration Continue. Toutefois, si parmi vos équipes il en est qui ont des compétences en administration système Unix, la prise en main de ces outils peut être relativement rapide, ce qui réduira donc vos frais de mise en place.
+Il en existe d'autres, aussi il peut être pertinent pour vos projet de vous faire conseiller par des sociétés spécialisées dans la mise en place de solutions d'Intégration Continue.  
+Toutefois, si parmi vos équipes il en est qui ont des compétences en administration système Unix, la prise en main de ces outils peut être relativement rapide, ce qui réduira donc vos frais de mise en place.
 
 Toutefois, rappelons-le, ces frais de mise en place seront généralement largement rentabilisés par l'assurance qualité fournies par ces pratiques d'Intégration Continue.
